@@ -119,7 +119,6 @@ resource "null_resource" "configure-cat-app" {
   }
 }
 
-
 module "cloud-storage" {
   source     = "app.terraform.io/terraform_workshop_cmatei/cloud-storage/google"
   version    = "3.4.1"
